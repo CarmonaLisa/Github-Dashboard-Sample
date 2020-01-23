@@ -137,6 +137,11 @@ main {
 .ui-widget.ui-widget-content {
   z-index: 1031; }
 
+/* Bootstrap form fix mobile*/
+.form-inline {
+  -webkit-box-pack: center;
+          justify-content: center; }
+
 .lds-spinner {
   color: official;
   display: inline-block;
@@ -283,7 +288,8 @@ main {
   padding: 10px 20px; }
 
 .back-link {
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 1.5rem; }
 
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)

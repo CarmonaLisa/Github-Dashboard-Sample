@@ -50,3 +50,8 @@ main {
 .ui-widget.ui-widget-content {
     z-index: 1031;
 }
+
+/* Bootstrap form fix mobile*/
+.form-inline {
+    justify-content: center;
+}
