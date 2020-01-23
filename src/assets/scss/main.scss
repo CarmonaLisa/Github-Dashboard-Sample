@@ -1,0 +1,18 @@
+/* shopago.fr */
+//Abstract
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+//Base
+@import 'base/base';
+
+//components
+@import 'components/loader';
+
+//Pages
+@import 'pages/index';
+
+//Vendor
+//@import 'vendor/vendor';
+
+@import "~bootstrap/scss/bootstrap";

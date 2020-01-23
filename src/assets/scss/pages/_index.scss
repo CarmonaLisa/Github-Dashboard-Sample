@@ -1,0 +1,43 @@
+.user_ctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-item {
+    margin-bottom: 1.5rem;
+
+    &__img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        border: 1px solid black;
+        margin-right: 20px;
+
+    }
+
+    &__name {
+        font-size: 18px;
+    }
+}
+
+.user-item__img img {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.main-page {
+    text-align: center;
+}
+
+.repo-item {
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+}
+
+.back-link {
+    text-align: left;
+}

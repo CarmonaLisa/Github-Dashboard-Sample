@@ -1,0 +1,98 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	//font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+input,label,select,button,textarea{
+	margin:0;
+	display:inline-block;
+	vertical-align:middle;
+	white-space:normal;
+	line-height:1;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+// input:focus, select:focus{
+// 	outline:0;
+// }
+button{
+	border: 0;
+	cursor: pointer;
+}
+input[type=search]{
+	-webkit-appearance:textfield;
+}
+::-webkit-search-decoration{
+	display:none;
+}
+/*formulaire IOS*/
+input {
+    border-radius: 0;
+   	-webkit-appearance: none;
+}
+
+// input:focus {
+// 	outline: none !important;
+// }
+
+button,input[type="reset"],input[type="button"],input[type="submit"]{
+	overflow:visible;
+	width:auto;
+}
+::-webkit-file-upload-button{	
+	padding:0;
+	border:0;
+	background:none;
+}
+textarea {
+	vertical-align:top;
+	overflow:auto;
+}
+select[multiple] {
+	/* Move the label to the top */
+	vertical-align:top;
+}

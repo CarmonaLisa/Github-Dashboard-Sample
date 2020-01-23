@@ -1,0 +1,52 @@
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font;
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 92%;
+    margin: auto;
+
+    @include mobile-display {
+        width: 95%;
+    }
+}
+
+.page_title {
+    margin-bottom: 2rem;
+}
+
+main {
+    flex-grow: 1;
+    margin-top: 56px;
+}
+
+.hidden {
+    display: none;
+}
+
+.lds-spinner.hidden {
+    display: none;
+}
+
+.hover {
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    &:hover {
+        color: $purple;
+    }
+}
+
+/* Overide JqueryUI*/
+.ui-widget.ui-widget-content {
+    z-index: 1031;
+}

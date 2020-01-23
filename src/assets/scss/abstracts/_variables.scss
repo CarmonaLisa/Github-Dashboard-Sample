@@ -1,0 +1,27 @@
+/* COLOR */
+$yellow: rgba(247, 190, 7, 1);
+$light-yellow: rgba(250, 203, 46, 1);
+$dark-yellow: rgba(235, 185, 65, 1);
+$dark-purple: rgba(131, 44, 124, 1);
+$purple: rgba(149, 52, 141, 1);
+$white: rgba(255, 255, 255, 1);
+$light-white: rgba(247, 247, 247, 1);
+$grey: rgba(112, 112, 112, 1);
+$light-grey: rgba(135, 135, 135, 1);
+
+/* IMG */
+//$path-to-images: "../../../Public/Images/";
+//$path-to-fonts: "../../../Public/Fonts/";
+
+/* FONT */
+$font : Arial, sans-serif;
+
+/* RESPONSIVE */
+// Width for media query, based on bootstrap breakpoint
+$small-min-width: 576px;
+$medium-min-width: 768px;
+$large-min-width: 992px;
+
+$small-max-width: 575px;
+$medium-max-width: 767px;
+$large-max-width: 991px;

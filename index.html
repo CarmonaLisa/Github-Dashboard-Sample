@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>GitHub Dashboard</title>
+  <link href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css' rel="stylesheet" type="text/css"
+    media="all" />
+  <link href='Public/Styles/main.css' rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body>
+  <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Github Dashboard</a>
+      
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          
+        </ul>
+        <form id="seachForm" class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" id="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" id="submitSearch" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div id="alertMsg" class="alert alert-danger hidden" role="alert"></div>
+
+    <div id="loader" class="lds-spinner hidden">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="main-page container">
+      <h1 class="page_title">Github Dashboard Sample</h1>
+      <div id="resultUser" class="block-user hidden">
+        <div class="user_ctn">
+          <div class="user-item user-item__img">
+            <img id="userImg" src="" alt="" class="block-user__img">
+          </div>
+          <div class="user-item user-item__name">
+            <div id="userName" class="block-user__name"></div>
+          </div>
+        </div>
+
+        <ul id="listRepo" class="block-user__repos">
+          <li class="repo-item hover"></li>
+        </ul>
+      </div>
+
+      <div id="resultRepo" class="block-repo hidden">
+        <div id="back" class="back-link hover" data-user="">&#8592; Retour à la liste des dépôts</div>
+        <div class="user_ctn">
+          <div class="user-item user-item__img">
+            <img id="userImgRepo" src="" alt="" class="block-repo__img">
+          </div>
+          <div class="user-item user-item__name">
+            <div id="userNameRepo" class="block-repo__username"></div>
+          </div>
+        </div>
+        <a id="urlRepo" href="" class="block-repo__url" target="_blank"></a>
+        <div id="nameRepo"></div>
+        <div id="technoRepo"></div>
+        <div id="resumeRepo"></div>
+      </div>
+
+
+    </div>
+  </main>
+
+  <script src="Public/Scripts/main.js"></script>
+</body>
+
+</html>
